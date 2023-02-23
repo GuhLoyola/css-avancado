@@ -1,0 +1,15 @@
+p:first-child {
+    color: aquamarine;
+}
+
+p:last-child {
+    color: violet;
+}
+
+li:nth-child(even) {
+    color: red;
+}
+
+p:only-child {
+    color: lime;
+}
