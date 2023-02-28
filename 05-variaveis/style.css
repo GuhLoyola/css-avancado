@@ -16,7 +16,7 @@ h1 {
 
 h2 {
 
-    /* Exemplo de escopo global */
+    /* Exemplo de escopo local */
     --tamanho-fonte: 30px;
     
     font-size: var(--tamanho-fonte, 15px);
