@@ -1,0 +1,27 @@
+/* Exemplo de escopo global */
+:root {
+
+    --cor-bg: blueviolet;
+    --cor-txt: #ffffff;
+
+    --default-color: green;
+
+}
+
+h1 {
+
+    background-color: var(--cor-bg , blue);
+    color: var(--cor-txt , blacks);
+}
+
+h2 {
+
+    /* Exemplo de escopo global */
+    --tamanho-fonte: 30px;
+    
+    font-size: var(--tamanho-fonte, 15px);
+}
+
+h3,p,span{
+    color: var(--default-color);
+}
